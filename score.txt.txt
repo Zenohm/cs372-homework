@@ -1,4 +1,13 @@
 Isaac CS372 Score report
 
 Homework1 - 100/100
+Homework2 - 95/100
+
+
+
+Note:
+Homework2 :
+(-5) Q1.4 Ans:
+IPFW-NET                  (NET-149-164-0-0-1        ) 149.164.0.0     - 149.164.255.255
+FT-WAYNE-IN               (NET-168-102-0-0-1        ) 168.102.0.0     - 168.102.255.255
 
