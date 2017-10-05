@@ -1,0 +1,92 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
+body {
+    border: rgb(30, 30, 30) solid 2px;
+    border-radius: 16px;
+    padding: 70px;
+} /* Fix for header being a bit of a derp. */
+
+#header {
+    background-color: rgb(100, 100, 100);
+    padding-bottom: 80px;
+    /*border: 3px solid #73AD21;*/
+}
+
+#picture {
+    position: absolute;
+    right: 50px;
+    width: 300px;
+    /*border: 3px solid #73AD21;*/
+    padding: 0px;
+}
+
+#info {
+    position: absolute;
+    text-align: right;
+    right: 400px;
+    width: 400px;
+    /*border: 3px solid #73AD21;*/
+    padding: 20px;
+    padding-top: 120px;
+}
+
+#other-info {
+    padding: 20px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+#content {
+    padding-top: 200px;
+}
+
+#resume-group {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;    
+}
+
+#resume-group h3 {
+    text-align: center;
+}
+
+#youtube-group {
+    margin: auto;
+    width: 50%;
+}
+
+#youtube-group h3 {
+    text-align: center;
+}
+
+#course-group {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;    
+}
+
+#course-group h3 {
+    text-align: center;
+}
+
+#course-group table {
+    margin: auto;
+}
+
+#location-group {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;    
+}
+
+#location-group h3 {
+    text-align: center;
+}
+
+#location-group iframe {
+    margin: auto;
+    display: block;
+}
