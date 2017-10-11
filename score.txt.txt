@@ -5,10 +5,20 @@ Homework2 - 95/100
 Homework3 - 100/100 
 Homework4 - 100/100 
 Homework5 - 100/100 
+Homework6 - 90/100 
+
 
 Note:
 Homework2 :
 (-5) Q1.4 Ans:
 IPFW-NET                  (NET-149-164-0-0-1        ) 149.164.0.0     - 149.164.255.255
 FT-WAYNE-IN               (NET-168-102-0-0-1        ) 168.102.0.0     - 168.102.255.255
+
+
+
+Homework6:
+(-5)
+“Page Menu” is put on the left of “Main” section and would be on the same location even when rolling the page up and down
+(-5)
+Hover on all rows of table
 
