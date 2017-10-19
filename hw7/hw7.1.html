@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>A Simple Adder</title>
+</head>
+<script>
+	function makePlainCurry(amount, operation) {
+		return function(number) {
+			return operation(number, amount);
+		};
+	}
+
+	function calculate(operation) {
+		with(document.forms.form) {
+			var deliciousCurry = makePlainCurry(Number(num1.value), operation);
+			result.value = deliciousCurry(Number(num2.value));
+		}
+	}
+</script>
+
+<body>
+	<form id="form" onsubmit="return false;">
+		Number 1: <input type="text" id="num1"><br/>
+		<br/>
+		Number 2: <input type="text" id="num2"><br/>
+		<br/>
+		<input type="button" onclick="calculate((a, b) => a+b);" value="Add">
+		<input type="button" onclick="calculate((a, b) => a-b);" value="Sub">
+		<input type="button" onclick="calculate((a, b) => a*b);" value="Mul">
+		<input type="button" onclick="calculate((a, b) => a/b);" value="Div"><br/>
+		<br/>
+		Result: <input type="text" id="result"><br/>
+		<br/>
+	</form>
+</body>
+
+</html>

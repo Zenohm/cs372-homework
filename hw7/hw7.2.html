@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Forms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="hw5.css">
+
+    <style>
+        body {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        legend {
+            border-bottom: 1px solid #eee;
+        }
+
+        #name-and-email {
+            margin-right: 50%;
+        }
+
+        .radio-inline {
+            margin-right: 10px;
+        }
+
+        #tag {
+            font-weight: bold;
+        }
+    </style>
+
+    <script type="text/javascript" src="js/hw7.2.js"></script>
+</head>
+
+<body>
+    <fieldset id="details_entry" name="personalDetails">
+        <legend>Your Details:</legend>
+        <div id="name-and-email" class="form-group">
+            <label id="tag" for="name_entry">Name:</label>
+            <input type="text" class="form-control" id="name_entry">
+            <label id="tag" for="email_entry">Email:</label>
+            <input type="text" class="form-control" id="email_entry">
+        </div>
+    </fieldset><br>
+
+    <fieldset id="review_entry">
+        <legend>Your Review:</legend>
+        <div class="form-group">
+            <label id="tag" for="origin-entry">How did you hear about us?</label>
+            <select class="form-control" id="origin-entry" name="originalSource">
+              <option value="Google">Google</option>
+              <option value="Friend">Friend</option>
+              <option value="Advert">Advert</option>
+              <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <label id="tag" for="visit-entry">Would you visit us again?</label>
+        <form id="visitAgain">
+            <label class="radio-inline"><input id="yes" name="visitAgainStatus" type="radio"> Yes</label>
+            <label class="radio-inline"><input id="no" name="visitAgainStatus" type="radio"> No</label>
+            <label class="radio-inline"><input id="maybe" name="visitAgainStatus" type="radio"> Maybe</label>
+        </form>
+
+        <div class="form-group">
+            <label id="tag" for="comment_entry">Comments:</label>
+            <textarea id="comment_entry" class="form-control" rows="5" cols="50"></textarea>
+        </div>
+
+        <div class="checkbox">
+            <label><input onclick="enrageUser();" type="checkbox" id="emailUpdates" checked/> Sign me up for email updates</label>
+        </div>
+        <input onclick="return validate();" id="the-lonely-button" type="submit" name="submitReview" value="Submit review" class="btn btn-primary" />
+    </fieldset>
+</body>
+
+</html>
