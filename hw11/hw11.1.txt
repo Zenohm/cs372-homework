@@ -1,0 +1,4 @@
+-- /* 1. */
+SELECT ProfessorID, SUM(EVALUATION)/COUNT(EVALUATION) FROM `CourseEvaluation` GROUP BY ProfessorID;
+-- /* 2. */
+SELECT ProfessorID, AVG(Evaluation) AS eval FROM `CourseEvaluation` GROUP BY ProfessorID HAVING eval > (SELECT AVG(Evaluation) from `CourseEvaluation`);
