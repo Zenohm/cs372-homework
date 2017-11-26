@@ -10,6 +10,7 @@ Homework7 - 98/100
 Homework8 - 100/100 
 Homework9 - 100/100 
 Homework10 - 100/100 
+Homework11 - 95/100 
 
 Note:
 Homework2 :
@@ -32,4 +33,8 @@ Adder: 45-57  Expected = -12   Actual=12
 Homework9 
 Warning:
 Use of undefined constant hexchar2dec - assumed 'hexchar2dec' in C:\xampp\htdocs\hw9.php on line 59
+
+
+Homework11:
+Q1: query 1 incorrect
 
